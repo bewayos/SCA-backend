@@ -30,7 +30,7 @@ This repository contains the backend implementation of the Spy Cat Agency manage
 ### Local Setup
 
 ```bash
-git clone (https://github.com/bewayos/SCA-backend)
+git clone https://github.com/bewayos/SCA-backend.git
 cd spy-cat-agency-backend
 
 python -m venv venv
