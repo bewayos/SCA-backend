@@ -31,7 +31,7 @@ This repository contains the backend implementation of the Spy Cat Agency manage
 
 ```bash
 git clone https://github.com/bewayos/SCA-backend.git
-cd spy-cat-agency-backend
+cd SCA-backend
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
