@@ -30,7 +30,7 @@ This repository contains the backend implementation of the Spy Cat Agency manage
 ### Local Setup
 
 ```bash
-git clone !!!!!!1
+git clone (https://github.com/bewayos/SCA-backend)
 cd spy-cat-agency-backend
 
 python -m venv venv
@@ -91,12 +91,14 @@ The collection includes:
 
 ### Project Structure
 
+```
 app/
-├── main.py          # Application entrypoint
-├── models.py        # SQLAlchemy models
-├── schemas.py       # Pydantic schemas
-├── crud.py          # Business logic
-├── database.py      # DB configuration
-└── api/
-    ├── cats.py      # Cat-related routes
-    └── missions.py  # Mission/Target-related routes
+├── main.py         # Application entrypoint
+├── models.py       # SQLAlchemy models
+├── schemas.py      # Pydantic schemas
+├── crud.py         # Business logic
+├── database.py     # DB configuration
+├── api/
+│   ├── cats.py     # Cat-related routes
+│   └── missions.py # Mission/Target-related routes
+```
